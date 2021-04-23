@@ -42,7 +42,8 @@ document.getElementById('btnclient_signin').onclick = function() {
             var errorMessage = error.Message;
             console.log(errorCode);
             console.log(errorMessage);
-            alert(errorMessage);
+            alert("mail not valied");
+            window.location.reload();
         });
     rd_redirect();
     // window.location.href = "signin.html";
